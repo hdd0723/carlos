@@ -1,0 +1,13 @@
+server:
+  port: 8088
+  servlet:
+    session:
+      timeout: 30
+  tomcat:
+    uri-encoding: utf-8
+
+age: 19
+name: zhangsan
+personinfo:
+  name: zhangsan
+  age: 34
