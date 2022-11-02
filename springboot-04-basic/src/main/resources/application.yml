@@ -1,13 +1,18 @@
-server:
-  port: 8088
-  servlet:
-    session:
-      timeout: 30
-  tomcat:
-    uri-encoding: utf-8
+#server:
+#  port: 8088
+#  servlet:
+#    session:
+#      timeout: 30
+#  tomcat:
+#    uri-encoding: utf-8
+#
+#age: 19
+#name: zhangsan
+#personinfo:
+#  name: zhangsan
+#  age: 34
 
-age: 19
-name: zhangsan
-personinfo:
-  name: zhangsan
-  age: 34
+# 如果要测试ReadConfigTest,则注释下面三行,解注释上面的配置
+spring:
+  profiles:
+    active: test

@@ -8,3 +8,7 @@
    git remote add origin git@github.com:hdd0723/carlos.git
    git branch -M main
    git push -u origin main
+   
+5. 在多配置文件环境下，可以设置有个application-dev、application-test和application-prod等多配置文件，同时还需要有个主配置文件application，指定哪个配置文件生效
+   ```yaml
+   spring.profiles.avtive=test
