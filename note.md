@@ -17,3 +17,6 @@
    
 ### springboot-05-web
 1. 用thymeleaf当渲染模版，记得controller的注解一定要用Controller，而不是RestController
+
+### springboot-07-aop
+1. aop几个注解：@Aspect，@Before，@After，@Around，@AfterReturn

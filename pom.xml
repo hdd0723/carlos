@@ -11,6 +11,7 @@
     <modules>
         <module>springboot-04-basic</module>
         <module>springboot-05-web</module>
+        <module>springboot-07-aop</module>
     </modules>
 
     <properties>
